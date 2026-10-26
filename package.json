@@ -1,0 +1,35 @@
+{
+  "name": "gsd-plugin",
+  "version": "2.45.0",
+  "description": "Performance-optimized plugin packaging of GSD (Get Shit Done) for Claude Code",
+  "private": true,
+  "scripts": {
+    "validate:gsd-plugin": "node bin/validate-plugin.cjs .claude-plugin/plugin.json",
+    "build:bm": "node bin/build-bm.cjs",
+    "check:bm-drift": "node bin/build-bm.cjs --check",
+    "validate:bm-plugin": "node bin/validate-plugin.cjs dist/bm/.claude-plugin/plugin.json"
+  },
+  "keywords": [
+    "claude-code",
+    "plugin",
+    "workflow",
+    "gsd",
+    "mcp"
+  ],
+  "author": "Jasper Nuyens",
+  "contributors": [
+    {
+      "name": "TACHES (Lex Christopherson)",
+      "url": "https://github.com/gsd-build/get-shit-done"
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/buildomator/buildomator.git"
+  },
+  "devDependencies": {
+    "ajv": "^8.18.0",
+    "ajv-formats": "^3.0.1"
+  }
+}

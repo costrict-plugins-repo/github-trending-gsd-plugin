@@ -1,0 +1,51 @@
+{
+  "name": "gsd-plugin",
+  "owner": {
+    "name": "Jasper Nuyens"
+  },
+  "metadata": {
+    "description": "Buildomator: a structured workflow plugin for Claude Code with planning, execution, verification, and MCP-backed project state"
+  },
+  "plugins": [
+    {
+      "name": "gsd",
+      "source": "./",
+      "displayName": "Buildomator (legacy /gsd:)",
+      "description": "The same Buildomator plugin under its original /gsd: command prefix. /gsd: keeps working as a fully equivalent alias; the retirement once planned for v5.0 is deferred, so both prefixes continue to work. New users should install Buildomator (the /bm: entry) instead.",
+      "version": "5.0.3",
+      "author": {
+        "name": "Jasper Nuyens"
+      },
+      "homepage": "https://buildomator.com",
+      "repository": "https://buildomator.com",
+      "license": "MIT",
+      "keywords": [
+        "workflow",
+        "planning",
+        "gsd",
+        "mcp"
+      ],
+      "category": "productivity"
+    },
+    {
+      "name": "bm",
+      "source": "./dist/bm",
+      "displayName": "Buildomator",
+      "description": "Buildomator: a structured workflow plugin for Claude Code. Use /bm: for planning, execution, verification, and MCP-backed project state. This is the plugin to install.",
+      "version": "5.0.3",
+      "author": {
+        "name": "Jasper Nuyens"
+      },
+      "homepage": "https://buildomator.com",
+      "repository": "https://buildomator.com",
+      "license": "MIT",
+      "keywords": [
+        "workflow",
+        "planning",
+        "buildomator",
+        "mcp"
+      ],
+      "category": "productivity"
+    }
+  ]
+}

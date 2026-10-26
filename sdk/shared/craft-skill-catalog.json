@@ -1,0 +1,552 @@
+{
+  "version": 1,
+  "licensePolicy": {
+    "allow": [
+      "MIT",
+      "Apache-2.0",
+      "BSD-2-Clause",
+      "BSD-3-Clause",
+      "ISC"
+    ],
+    "flagCopyleft": [
+      "GPL-2.0-only",
+      "GPL-2.0-or-later",
+      "GPL-3.0-only",
+      "GPL-3.0-or-later",
+      "AGPL-3.0-only",
+      "AGPL-3.0-or-later",
+      "LGPL-2.1-only",
+      "LGPL-2.1-or-later",
+      "LGPL-3.0-only",
+      "LGPL-3.0-or-later",
+      "MPL-2.0",
+      "EPL-2.0",
+      "CDDL-1.0"
+    ],
+    "flagSourceAvailable": [
+      "BUSL-1.1",
+      "SSPL-1.0",
+      "Elastic-2.0",
+      "PolyForm-Small-Business-1.0.0",
+      "PolyForm-Internal-Use-1.0.0",
+      "LicenseRef-Commons-Clause"
+    ],
+    "block": [
+      "NONE",
+      "NOASSERTION",
+      "UNLICENSED",
+      "CC-BY-NC-4.0",
+      "CC-BY-NC-SA-4.0",
+      "CC-BY-NC-ND-4.0",
+      "PolyForm-Noncommercial-1.0.0",
+      "LicenseRef-Proprietary",
+      "LicenseRef-All-Rights-Reserved"
+    ],
+    "obligations": {
+      "MIT": "Keep the copyright and permission notice with any copy of the skill text; no other conditions.",
+      "Apache-2.0": "Keep the license and NOTICE text with copies; state changes you make; patent grant applies.",
+      "BSD-2-Clause": "Keep the copyright notice and the two-clause disclaimer with any copy; no other conditions.",
+      "BSD-3-Clause": "Keep the copyright notice and disclaimer; do not use the authors' names to endorse derived work.",
+      "ISC": "Keep the copyright and permission notice with any copy; functionally equivalent to MIT.",
+      "GPL-2.0-only": "Copyleft: copying a bundled script into your tree can oblige you to release derived code under GPL-2.0-only; human decision required.",
+      "GPL-2.0-or-later": "Copyleft: copying a bundled script into your tree can oblige you to release derived code under GPL-2.0 or a later version; human decision required.",
+      "GPL-3.0-only": "Copyleft: copying a bundled script into your tree can oblige you to release derived code under GPL-3.0-only; human decision required.",
+      "GPL-3.0-or-later": "Copyleft: copying a bundled script into your tree can oblige you to release derived code under GPL-3.0 or a later version; human decision required.",
+      "AGPL-3.0-only": "Network copyleft: AGPL-3.0-only extends copyleft to users served over a network; copying bundled code obliges source release; human decision required.",
+      "AGPL-3.0-or-later": "Network copyleft: AGPL-3.0 or later extends copyleft to users served over a network; copying bundled code obliges source release; human decision required.",
+      "LGPL-2.1-only": "Weak copyleft: LGPL-2.1-only lets you link the component but modifications to it must be shared back; human decision required.",
+      "LGPL-2.1-or-later": "Weak copyleft: LGPL-2.1 or later lets you link the component but modifications to it must be shared back; human decision required.",
+      "LGPL-3.0-only": "Weak copyleft: LGPL-3.0-only lets you link the component but modifications to it must be shared back; human decision required.",
+      "LGPL-3.0-or-later": "Weak copyleft: LGPL-3.0 or later lets you link the component but modifications to it must be shared back; human decision required.",
+      "MPL-2.0": "File-level copyleft: MPL-2.0 requires sharing changes to covered files; unrelated files stay under your own terms.",
+      "EPL-2.0": "File-level copyleft: EPL-2.0 requires sharing modifications to covered source and carries a patent grant; human decision required.",
+      "CDDL-1.0": "File-level copyleft: CDDL-1.0 requires sharing modifications to covered files under the same license; human decision required.",
+      "BUSL-1.1": "Source-available: production use is restricted until the change date; read the additional-use grant before accepting.",
+      "SSPL-1.0": "Source-available: offering the skill as a service can oblige you to release the whole service stack; read SSPL before accepting.",
+      "Elastic-2.0": "Source-available: you may not provide the skill as a managed service or circumvent license controls; read Elastic-2.0 before accepting.",
+      "PolyForm-Small-Business-1.0.0": "Source-available: free only for small businesses under the stated revenue and headcount caps; larger users need a separate license.",
+      "PolyForm-Internal-Use-1.0.0": "Source-available: internal use only; redistribution or offering to third parties is not granted.",
+      "LicenseRef-Commons-Clause": "Source-available: the Commons Clause removes the right to sell the software; otherwise follows the base license."
+    }
+  },
+  "publishers": {
+    "coreyhaines31": {
+      "name": "Corey Haines",
+      "kind": "individual",
+      "url": "https://github.com/coreyhaines31",
+      "label": "published by Corey Haines (marketingskills)"
+    },
+    "duckdb": {
+      "name": "DuckDB Foundation",
+      "kind": "vendor-official",
+      "url": "https://github.com/duckdb",
+      "label": "published by the DuckDB Foundation"
+    },
+    "jeffallan": {
+      "name": "Jeffallan",
+      "kind": "individual",
+      "url": "https://github.com/Jeffallan",
+      "label": "published by Jeffallan (claude-skills)"
+    },
+    "travisjneuman": {
+      "name": "Travis J. Neuman",
+      "kind": "individual",
+      "url": "https://github.com/travisjneuman",
+      "label": "published by Travis J. Neuman"
+    },
+    "owl-listener": {
+      "name": "MC Dean",
+      "kind": "individual",
+      "url": "https://github.com/Owl-Listener",
+      "label": "published by MC Dean (designer-skills)"
+    },
+    "rongiladco": {
+      "name": "Ron Gilad",
+      "kind": "individual",
+      "url": "https://github.com/rongiladco",
+      "label": "published by Ron Gilad (web-accessibility-audit)"
+    },
+    "artais-security": {
+      "name": "Artais Security Labs",
+      "kind": "individual",
+      "url": "https://github.com/Artais-Security",
+      "label": "published by Artais Security Labs"
+    },
+    "obra": {
+      "name": "Jesse Vincent",
+      "kind": "individual",
+      "url": "https://github.com/obra",
+      "label": "published by Jesse Vincent (superpowers)"
+    }
+  },
+  "skills": {
+    "seo-audit": {
+      "id": "seo-audit",
+      "domain": "seo",
+      "triggers": [
+        "seo",
+        "search ranking",
+        "meta tags",
+        "core web vitals",
+        "indexing",
+        "sitemap",
+        "technical seo"
+      ],
+      "publisher": "coreyhaines31",
+      "source": "https://github.com/coreyhaines31/marketingskills",
+      "skill_path": "skills/seo-audit",
+      "skill_name": "seo-audit",
+      "pinned_commit": "dda3841f0b294e01e93b1541486beefbfab0915e",
+      "license": "MIT",
+      "license_url": "https://github.com/coreyhaines31/marketingskills/blob/dda3841f0b294e01e93b1541486beefbfab0915e/LICENSE",
+      "obligations": "Keep the copyright and permission notice with any copy of the skill text; no other conditions.",
+      "trust_tier": "A",
+      "bundles_scripts": false,
+      "scripts_review": null,
+      "tooling": [],
+      "target_agents": [
+        "bm-executor"
+      ],
+      "summary": "SEO audit skill from the marketingskills repo: diagnoses technical and on-page SEO issues from instructions and reference notes; no bundled code.",
+      "verified_at": "2026-10-05"
+    },
+    "duckdb-query": {
+      "id": "duckdb-query",
+      "domain": "data",
+      "triggers": [
+        "duckdb",
+        "sql over files",
+        "parquet",
+        "csv analysis",
+        "query data files",
+        "ad-hoc sql"
+      ],
+      "publisher": "duckdb",
+      "source": "https://github.com/duckdb/duckdb-skills",
+      "skill_path": "skills/query",
+      "skill_name": "query",
+      "pinned_commit": "7feda8e01e22bc0886c86123f3884947e36d8c69",
+      "license": "MIT",
+      "license_url": "https://github.com/duckdb/duckdb-skills/blob/7feda8e01e22bc0886c86123f3884947e36d8c69/LICENSE",
+      "obligations": "Keep the copyright and permission notice with any copy of the skill text; no other conditions.",
+      "trust_tier": "B",
+      "bundles_scripts": false,
+      "scripts_review": null,
+      "tooling": [
+        {
+          "name": "duckdb CLI",
+          "license": "MIT",
+          "note": "Installed separately by the user; Buildomator never fetches or runs it. Its license is independent of the skill text."
+        }
+      ],
+      "target_agents": [
+        "bm-executor"
+      ],
+      "summary": "DuckDB query skill: runs SQL or natural-language questions against data files and attached databases through the locally installed duckdb CLI.",
+      "verified_at": "2026-10-05"
+    },
+    "postgres-pro": {
+      "id": "postgres-pro",
+      "domain": "database",
+      "triggers": [
+        "postgres performance",
+        "explain analyze",
+        "query plan",
+        "slow query",
+        "index tuning",
+        "pg_stat_statements",
+        "sequential scan",
+        "jsonb index"
+      ],
+      "publisher": "jeffallan",
+      "source": "https://github.com/Jeffallan/claude-skills",
+      "skill_path": "skills/postgres-pro",
+      "skill_name": "postgres-pro",
+      "pinned_commit": "1be15d8064f88fc25216442406d40add8fd23b53",
+      "license": "MIT",
+      "license_url": "https://github.com/Jeffallan/claude-skills/blob/1be15d8064f88fc25216442406d40add8fd23b53/LICENSE",
+      "obligations": "Keep the copyright and permission notice with any copy of the skill text; no other conditions.",
+      "trust_tier": "A",
+      "bundles_scripts": false,
+      "scripts_review": null,
+      "tooling": [],
+      "target_agents": [
+        "bm-executor"
+      ],
+      "summary": "PostgreSQL query-performance craft: reading EXPLAIN (ANALYZE, BUFFERS) output, choosing index types and columns, rewriting slow queries, plus JSONB indexing, VACUUM, extensions, and pg_stat_statements monitoring. Instruction and SQL only; the user runs it against their own database.",
+      "verified_at": "2026-10-14"
+    },
+    "accessibility-a11y": {
+      "id": "accessibility-a11y",
+      "domain": "accessibility",
+      "triggers": [
+        "accessible component",
+        "aria roles",
+        "keyboard navigation",
+        "focus management",
+        "focus trap",
+        "wcag",
+        "color contrast",
+        "screen reader"
+      ],
+      "publisher": "travisjneuman",
+      "source": "https://github.com/travisjneuman/.claude",
+      "skill_path": "skills/accessibility-a11y",
+      "skill_name": "accessibility-a11y",
+      "pinned_commit": "49ad78f25b602a10da27738fdbb1f1433bfe95be",
+      "license": "MIT",
+      "license_url": "https://github.com/travisjneuman/.claude/blob/49ad78f25b602a10da27738fdbb1f1433bfe95be/LICENSE",
+      "obligations": "Keep the copyright and permission notice with any copy of the skill text; no other conditions.",
+      "trust_tier": "A",
+      "bundles_scripts": false,
+      "scripts_review": null,
+      "tooling": [],
+      "target_agents": [
+        "bm-executor"
+      ],
+      "summary": "WCAG 2.2 build patterns for accessible UI components: semantic HTML first, correct ARIA, keyboard operation, focus management, color contrast, and reduced motion, with adaptable React examples and a contrast and ARIA quick reference. Build guidance, not a standalone audit tool.",
+      "verified_at": "2026-10-14"
+    },
+    "data-visualization": {
+      "id": "data-visualization",
+      "domain": "visualization",
+      "triggers": [
+        "chart type",
+        "data visualization",
+        "chart encoding",
+        "visualize dataset",
+        "colorblind-safe palette",
+        "axis and legend design",
+        "which chart"
+      ],
+      "publisher": "owl-listener",
+      "source": "https://github.com/Owl-Listener/designer-skills",
+      "skill_path": "ui-design/skills/data-visualization",
+      "skill_name": "data-visualization",
+      "pinned_commit": "9a6930cf84a822eb458624bd11c61aac5bbdf224",
+      "license": "MIT",
+      "license_url": "https://github.com/Owl-Listener/designer-skills/blob/9a6930cf84a822eb458624bd11c61aac5bbdf224/LICENSE",
+      "obligations": "Keep the copyright and permission notice with any copy of the skill text; no other conditions.",
+      "trust_tier": "A",
+      "bundles_scripts": false,
+      "scripts_review": null,
+      "tooling": [],
+      "target_agents": [
+        "bm-executor"
+      ],
+      "summary": "Chart design craft: choosing the right chart type for comparison, trend, part-of-whole, distribution, or relationship, then shaping marks, axes, labels, color encoding, and accessibility. Selection and encoding guidance; it does not emit chart code.",
+      "verified_at": "2026-10-14"
+    },
+    "web-accessibility-audit": {
+      "id": "web-accessibility-audit",
+      "domain": "accessibility",
+      "triggers": [
+        "accessibility",
+        "wcag",
+        "a11y",
+        "aria",
+        "color contrast",
+        "screen reader",
+        "keyboard navigation",
+        "focus order"
+      ],
+      "publisher": "rongiladco",
+      "source": "https://github.com/rongiladco/web-accessibility-audit",
+      "skill_path": ".",
+      "skill_name": "web-accessibility-audit",
+      "pinned_commit": "f33240086c04932c0c70837e3f86e845763aa371",
+      "license": "MIT",
+      "license_url": "https://github.com/rongiladco/web-accessibility-audit/blob/f33240086c04932c0c70837e3f86e845763aa371/LICENSE",
+      "obligations": "Keep the copyright and permission notice with any copy of the skill text; no other conditions.",
+      "trust_tier": "B",
+      "bundles_scripts": true,
+      "scripts_review": {
+        "verdict": "reviewed",
+        "commit": "f33240086c04932c0c70837e3f86e845763aa371",
+        "reviewed_at": "2026-10-15",
+        "note": "Read all three at pin: axe/Playwright runner (fetches only the audited URL), a stdlib Python static-HTML heuristic, and an element screenshotter. No shell-out, no eval, no credential or filesystem access beyond the named output file. Automated mode needs network plus a one-time Playwright Chromium download; a stdlib heuristic fallback runs offline."
+      },
+      "tooling": [
+        {
+          "name": "Node.js",
+          "license": "MIT",
+          "note": "Runtime for the automated axe-core/Playwright audit scripts; installed separately by the user, never fetched by Buildomator. The scripts pull Playwright and @axe-core/playwright via npm and download a Chromium build on first use."
+        },
+        {
+          "name": "Python 3",
+          "license": "Python-2.0",
+          "note": "Runs the offline heuristic fallback; installed separately by the user. Standard library only, no third-party packages."
+        }
+      ],
+      "target_agents": [
+        "bm-ui-researcher",
+        "bm-ui-checker"
+      ],
+      "summary": "Audits live web page URLs for accessibility and writes a prioritized, cited report. Two lenses: a headless-browser axe-core scan of the rendered DOM (contrast, focus order, ARIA) and a dependency-free static HTML pass (alt text, labels, heading order, landmarks, link text). Each finding maps to a WCAG success criterion with level and a concrete fix.",
+      "verified_at": "2026-10-15"
+    },
+    "security-review": {
+      "id": "security-review",
+      "domain": "security",
+      "triggers": [
+        "security",
+        "vulnerability",
+        "owasp",
+        "injection",
+        "authentication",
+        "authorization",
+        "secrets",
+        "xss"
+      ],
+      "publisher": "artais-security",
+      "source": "https://github.com/Artais-Security/claude-skills-security-code-review",
+      "skill_path": ".",
+      "skill_name": "security-review",
+      "pinned_commit": "210bc0c0a45eb03fc8e8c29e76875c589c9dec0e",
+      "license": "MIT",
+      "license_url": "https://github.com/Artais-Security/claude-skills-security-code-review/blob/210bc0c0a45eb03fc8e8c29e76875c589c9dec0e/LICENSE",
+      "obligations": "Keep the copyright and permission notice with any copy of the skill text; no other conditions.",
+      "trust_tier": "A",
+      "bundles_scripts": false,
+      "scripts_review": null,
+      "tooling": [],
+      "target_agents": [
+        "bm-security-auditor"
+      ],
+      "summary": "Code-security review craft aligned to OWASP concerns: authentication and authorization, input validation and injection, secrets handling, dependency risk, data exposure, transport, and web issues (XSS, CSRF, CORS). Topic references carry general notes plus per-stack files (Go, Python, FastAPI, Next.js) and an attacker-perspective file for defensive review. Prose only.",
+      "verified_at": "2026-10-15"
+    },
+    "code-reviewer": {
+      "id": "code-reviewer",
+      "domain": "code-quality",
+      "triggers": [
+        "code review",
+        "code quality",
+        "code smell",
+        "refactor",
+        "n+1",
+        "maintainability",
+        "bug",
+        "pull request"
+      ],
+      "publisher": "jeffallan",
+      "source": "https://github.com/Jeffallan/claude-skills",
+      "skill_path": "skills/code-reviewer",
+      "skill_name": "code-reviewer",
+      "pinned_commit": "1be15d8064f88fc25216442406d40add8fd23b53",
+      "license": "MIT",
+      "license_url": "https://github.com/Jeffallan/claude-skills/blob/1be15d8064f88fc25216442406d40add8fd23b53/LICENSE",
+      "obligations": "Keep the copyright and permission notice with any copy of the skill text; no other conditions.",
+      "trust_tier": "A",
+      "bundles_scripts": false,
+      "scripts_review": null,
+      "tooling": [],
+      "target_agents": [
+        "bm-code-reviewer"
+      ],
+      "summary": "Broad single-pass code review covering correctness, security (SQL injection, XSS, insecure deserialization), performance (N+1 queries), naming, test coverage, and architecture. Walks context, structure, details, then tests, and emits a prioritized, categorized report. References hold a review checklist and common-issue patterns. Prose only.",
+      "verified_at": "2026-10-15"
+    },
+    "test-driven-development": {
+      "id": "test-driven-development",
+      "domain": "testing",
+      "triggers": [
+        "tdd",
+        "test-driven",
+        "test first",
+        "write the test",
+        "failing test",
+        "unit test",
+        "red-green"
+      ],
+      "publisher": "obra",
+      "source": "https://github.com/obra/superpowers",
+      "skill_path": "skills/test-driven-development",
+      "skill_name": "test-driven-development",
+      "pinned_commit": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+      "license": "MIT",
+      "license_url": "https://github.com/obra/superpowers/blob/bb92a77741419a4ab5f06e711a283343f1ada0c3/LICENSE",
+      "obligations": "Keep the copyright and permission notice with any copy of the skill text; no other conditions.",
+      "trust_tier": "A",
+      "bundles_scripts": false,
+      "scripts_review": null,
+      "tooling": [],
+      "target_agents": [
+        "bm-executor"
+      ],
+      "summary": "Test-driven development discipline: write the test first, watch it fail, write the minimal code to pass, then refactor. Covers when TDD applies, the red-green-refactor loop, and writing tests that assert behavior rather than implementation. Prose only.",
+      "verified_at": "2026-10-19"
+    },
+    "writing-plans": {
+      "id": "writing-plans",
+      "domain": "planning",
+      "triggers": [
+        "implementation plan",
+        "task breakdown",
+        "write a plan",
+        "break down",
+        "multi-step",
+        "decompose"
+      ],
+      "publisher": "obra",
+      "source": "https://github.com/obra/superpowers",
+      "skill_path": "skills/writing-plans",
+      "skill_name": "writing-plans",
+      "pinned_commit": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+      "license": "MIT",
+      "license_url": "https://github.com/obra/superpowers/blob/bb92a77741419a4ab5f06e711a283343f1ada0c3/LICENSE",
+      "obligations": "Keep the copyright and permission notice with any copy of the skill text; no other conditions.",
+      "trust_tier": "A",
+      "bundles_scripts": false,
+      "scripts_review": null,
+      "tooling": [],
+      "target_agents": [
+        "bm-planner"
+      ],
+      "summary": "Writing implementation plans for an engineer who has not seen the codebase: map the files and their responsibilities first, then break the work into small tasks that each name the exact interface, the values, and the proving test. DRY, YAGNI, frequent commits. Prose only.",
+      "verified_at": "2026-10-19"
+    },
+    "verification-before-completion": {
+      "id": "verification-before-completion",
+      "domain": "verification",
+      "triggers": [
+        "verify",
+        "verification",
+        "mark complete",
+        "confirm passing"
+      ],
+      "publisher": "obra",
+      "source": "https://github.com/obra/superpowers",
+      "skill_path": "skills/verification-before-completion",
+      "skill_name": "verification-before-completion",
+      "pinned_commit": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+      "license": "MIT",
+      "license_url": "https://github.com/obra/superpowers/blob/bb92a77741419a4ab5f06e711a283343f1ada0c3/LICENSE",
+      "obligations": "Keep the copyright and permission notice with any copy of the skill text; no other conditions.",
+      "trust_tier": "A",
+      "bundles_scripts": false,
+      "scripts_review": null,
+      "tooling": [],
+      "target_agents": [
+        "bm-verifier"
+      ],
+      "summary": "Gate against premature completion claims: before asserting work is done, fixed, or passing, identify the command that proves it, run it fresh in full, read the whole output and exit code, then claim status. Evidence before assertions. Prose only.",
+      "verified_at": "2026-10-19"
+    },
+    "systematic-debugging": {
+      "id": "systematic-debugging",
+      "domain": "debugging",
+      "triggers": [
+        "bug",
+        "debug",
+        "root cause",
+        "test failure",
+        "regression",
+        "crash",
+        "stack trace",
+        "flaky"
+      ],
+      "publisher": "obra",
+      "source": "https://github.com/obra/superpowers",
+      "skill_path": "skills/systematic-debugging",
+      "skill_name": "systematic-debugging",
+      "pinned_commit": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+      "license": "MIT",
+      "license_url": "https://github.com/obra/superpowers/blob/bb92a77741419a4ab5f06e711a283343f1ada0c3/LICENSE",
+      "obligations": "Keep the copyright and permission notice with any copy of the skill text; no other conditions.",
+      "trust_tier": "B",
+      "bundles_scripts": true,
+      "scripts_review": {
+        "verdict": "reviewed",
+        "commit": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+        "reviewed_at": "2026-10-19",
+        "note": "find-polluter.sh is a test-pollution bisector that runs npm test on files you name; condition-based-waiting-example.ts is a non-executed illustrative example. No network, credential access, or eval. Buildomator never runs it."
+      },
+      "tooling": [],
+      "target_agents": [
+        "bm-debugger"
+      ],
+      "summary": "Scientific-method debugging: no fix without a root-cause investigation first. Frame a hypothesis, instrument to confirm it, trace to the true cause, apply the minimal fix, then verify. References cover root-cause tracing, defense in depth, and condition-based waiting. Bundles a shell test-pollution finder.",
+      "verified_at": "2026-10-19"
+    },
+    "brainstorming": {
+      "id": "brainstorming",
+      "domain": "ideation",
+      "triggers": [
+        "brainstorm",
+        "ideation",
+        "explore idea",
+        "scope out",
+        "new feature"
+      ],
+      "publisher": "obra",
+      "source": "https://github.com/obra/superpowers",
+      "skill_path": "skills/brainstorming",
+      "skill_name": "brainstorming",
+      "pinned_commit": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+      "license": "MIT",
+      "license_url": "https://github.com/obra/superpowers/blob/bb92a77741419a4ab5f06e711a283343f1ada0c3/LICENSE",
+      "obligations": "Keep the copyright and permission notice with any copy of the skill text; no other conditions.",
+      "trust_tier": "B",
+      "bundles_scripts": true,
+      "scripts_review": {
+        "verdict": "reviewed",
+        "commit": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+        "reviewed_at": "2026-10-19",
+        "note": "Bundles a loopback (127.0.0.1) HTTP/WebSocket companion server: per-session token auth, CSP, origin check, path-traversal guards. Its page fetches a brand logo from primeradiant.com unless SUPERPOWERS_DISABLE_TELEMETRY or CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC is set (recommended). No credential access or exfiltration; Buildomator never runs it."
+      },
+      "tooling": [
+        {
+          "name": "Node.js",
+          "license": "MIT",
+          "note": "Runtime for the optional visual-companion local server; installed separately by the user, never fetched by Buildomator. The questioning method works without it."
+        }
+      ],
+      "target_agents": [
+        "bm-executor"
+      ],
+      "summary": "Draws out what the user actually wants before anything gets built: asks the few questions that resolve real unknowns, surfaces the why behind the request, and stops once intent is clear. Optional local visual companion. The questioning method is prose; the companion bundles a Node server.",
+      "verified_at": "2026-10-19"
+    }
+  }
+}
